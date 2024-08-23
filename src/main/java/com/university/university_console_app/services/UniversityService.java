@@ -1,4 +1,4 @@
-package com.university.university_console_app.sevices;
+package com.university.university_console_app.services;
 
 import com.university.university_console_app.entities.Degree;
 import com.university.university_console_app.entities.Department;

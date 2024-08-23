@@ -5,7 +5,6 @@ import com.university.university_console_app.entities.Department;
 import com.university.university_console_app.entities.Lector;
 import com.university.university_console_app.repositories.DepartmentRepository;
 import com.university.university_console_app.repositories.LectorRepository;
-import com.university.university_console_app.sevices.UniversityService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -175,5 +174,4 @@ public class UniversityServiceTest {
         String result = universityService.globalSearch("NonExistentName");
         assertEquals("No results found", result);
     }
-
 }
