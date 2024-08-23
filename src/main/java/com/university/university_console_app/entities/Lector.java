@@ -22,8 +22,10 @@ public class Lector {
     private String name;
 
     @Enumerated(EnumType.STRING)
+    @Column(name = "DEGREE")
     private Degree degree;
 
+    @Column(name = "SALARY")
     private Double salary;
 
     @ManyToMany(fetch = FetchType.EAGER, mappedBy = "lectors")
